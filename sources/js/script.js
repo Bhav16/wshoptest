@@ -14,13 +14,6 @@ $(".owl-carousel").owlCarousel({
 //     return emailRegex.test(email);
 //   };
 
-
-
-
-
-
-
-
   const form = document.querySelector(".form-line");
   const email = document.querySelector(".input");
   const account = document.getElementById("connexion-rollover")
