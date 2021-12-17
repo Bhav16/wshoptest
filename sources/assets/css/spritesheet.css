@@ -4,6 +4,20 @@
     display: block;
 }
 
+.wrapper-rassurance{
+  display: flex;
+}
+
+.sprite-h{
+  display: flex;
+  padding: 5px;
+}
+
+.sprite-item{
+  margin: 5px;
+  padding: 5px;
+}
+
 .sprite-footer_01 {
     width: 24px;
     height: 24px;

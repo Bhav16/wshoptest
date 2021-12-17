@@ -7,3 +7,24 @@ $(".owl-carousel").owlCarousel({
     autoplayTimeout: 5000,
     autoplaySpeed: 2000,
 });
+
+
+// const valid = (email) => {
+//     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+//     return emailRegex.test(email);
+//   };
+
+
+
+
+
+
+
+
+  const form = document.querySelector(".form-line");
+  const email = document.querySelector(".input");
+  const account = document.getElementById("connexion-rollover")
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    account.innerHTML = email.value
+  });
