@@ -141,3 +141,7 @@
     margin-right: .5rem;
 }
 
+/* dropdown */
+.menu:hover .sub-menu {
+    display: flex;
+  }
